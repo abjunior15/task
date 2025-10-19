@@ -168,7 +168,9 @@ class _InvestmentPortfoliosScreenState
                           chartData: [3, 4, 3.5, 5, 4, 5.5, 5],
                           isPositive: true,
                         ),
-                        SizedBox(height: 16),
+                        SizedBox(
+                          height: BaseTheme.padding,
+                        ),
                         PortfolioCard(
                           title: 'صندوق الوقف ب',
                           riskLevel: 'محافظ معتدلة',
@@ -182,7 +184,9 @@ class _InvestmentPortfoliosScreenState
                           chartData: [3, 4.5, 4, 5, 4.5, 5.2, 5.5],
                           isPositive: true,
                         ),
-                        SizedBox(height: 16),
+                        SizedBox(
+                          height: BaseTheme.padding,
+                        ),
                         PortfolioCard(
                           title: 'صندوق الوقف ج',
                           riskLevel: 'محافظ منخفضة',
