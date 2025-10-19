@@ -227,13 +227,10 @@ class AwqafHomeView extends StatelessWidget {
                           amount: '19.02',
                           color: awqafColorScheme.tertiary,
                         ),
-                        Directionality(
-                          textDirection: TextDirection.rtl,
-                          child: BalanceColumn(
-                            title: 'إجمالي الاستثمار',
-                            amount: '499.26',
-                            color: awqafColorScheme.primary,
-                          ),
+                        BalanceColumn(
+                          title: 'إجمالي الاستثمار',
+                          amount: '499.26',
+                          color: awqafColorScheme.primary,
                         ),
                       ],
                     ),

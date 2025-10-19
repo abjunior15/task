@@ -42,6 +42,11 @@ class BalanceColumn extends StatelessWidget {
         const SizedBox(height: 6),
         Row(
           children: [
+            Text(
+              title,
+              style: context.textTheme.bodyMedium,
+            ),
+            const SizedBox(width: BaseTheme.unit / 2),
             Container(
               width: MediaQuery.of(context).size.width * 0.02,
               height: MediaQuery.of(context).size.width * 0.02,
@@ -49,11 +54,6 @@ class BalanceColumn extends StatelessWidget {
                 color: color,
                 shape: BoxShape.circle,
               ),
-            ),
-            const SizedBox(width: BaseTheme.unit / 2),
-            Text(
-              title,
-              style: context.textTheme.bodyMedium,
             ),
           ],
         ),
